@@ -4,6 +4,7 @@ public class Main {
         int k;
         int toplam = 0;
         int i;
+        int tekrar=0
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Sayı giriniz : ");
@@ -11,11 +12,13 @@ public class Main {
         for (i = 0; i <= k; i++) {
             if (i % 12 == 0) {
                 toplam += i;
+              
 
 
             }
         }
-        System.out.println(toplam);
+        tekrar = k/12;
+        System.out.println(toplam/tekrar);
 
 
     }
