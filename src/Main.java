@@ -4,7 +4,7 @@ public class Main {
         int k;
         int toplam = 0;
         int i;
-        int tekrar=0
+        int tekrar=0;
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Sayı giriniz : ");
